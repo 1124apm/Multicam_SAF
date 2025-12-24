@@ -1,0 +1,19 @@
+# [Python 3.13 호환성 및 패치]
+legacy-cgi
+httpx>=0.27.0
+datasets>=3.0.0
+
+# 1) 텍스트 전처리 및 번역 (merge_pre_trans.py)
+deep-translator
+
+# 2) Gemini AI 분석 및 환경 설정 (makingjson.py)
+google-generativeai
+python-dotenv
+
+# 3) 유사도 계산 및 데이터 처리 (label_generator.py)
+pandas
+numpy
+scikit-learn
+sentence-transformers
+node2vec
+networkx
